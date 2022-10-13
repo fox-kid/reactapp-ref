@@ -1,24 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import { useRef } from 'react';
 
-function App() {
+import './App.css'
+import Buttons from './components/Buttons';
+import Header from './components/Header';
+import Main from './components/Main';
+import Comments from './components/Comments';
+import AboutUs from './components/AboutUs';
+import References from './components/References';
+
+const App = () => {
+  const headerRef = useRef();
+  const mainRef = useRef();
+  const commentsRef = useRef();
+  const aboutUsRef = useRef();
+  const referencesRef = useRef();
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+    });
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className='container'>
+      <Buttons 
+        header={headerRef} 
+        main={mainRef} 
+        comments={commentsRef}
+        aboutUs={aboutUsRef} 
+        references={referencesRef} 
+      />
+      <Header forwardRef={headerRef} />
+      <Main forwardRef={mainRef} />
+      <Comments forwardRef={commentsRef} />
+      <AboutUs forwardRef={aboutUsRef} />
+      <References forwardRef={referencesRef} />
+      <button className='btn' onClick={() => scrollToTop()}>Scroll to top</button>
+    </main>
   );
 }
 

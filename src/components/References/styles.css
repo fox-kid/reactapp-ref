@@ -1,0 +1,15 @@
+.references {
+  -webkit-margin-after: 60px;
+          margin-block-end: 60px;
+}
+.references h2 {
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
+  color: rgb(95, 2, 2);
+}
+.references__block {
+  height: 360px;
+  width: 100%;
+  background-color: rgb(227, 90, 90);
+  border-radius: 12px;
+}/*# sourceMappingURL=styles.css.map */

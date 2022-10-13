@@ -1,0 +1,15 @@
+.main {
+    margin-block-end: 60px;
+
+    h2 {
+        margin-block-end: 20px;
+        color: rgb(9, 71, 47);
+    }
+    
+    &__block {
+        height: 300px;
+        width: 100%;
+        background-color: rgb(58, 153, 99);
+        border-radius: 12px;
+    }
+}

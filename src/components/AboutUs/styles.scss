@@ -1,0 +1,15 @@
+.aboutUs {
+    margin-block-end: 60px;
+
+    h2 {
+        margin-block-end: 20px;
+        color: rgb(186, 128, 3);
+    }
+    
+    &__block {
+        height: 360px;
+        width: 100%;
+        background-color: rgb(224, 159, 121);
+        border-radius: 12px;
+    }
+}

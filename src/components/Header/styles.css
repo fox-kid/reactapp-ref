@@ -1,0 +1,15 @@
+.header {
+  -webkit-margin-after: 60px;
+          margin-block-end: 60px;
+}
+.header h2 {
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
+  color: rgb(17, 13, 100);
+}
+.header__block {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(138, 167, 205);
+  border-radius: 12px;
+}/*# sourceMappingURL=styles.css.map */

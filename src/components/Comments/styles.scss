@@ -1,0 +1,15 @@
+.comments {
+    margin-block-end: 60px;
+
+    h2 {
+        margin-block-end: 20px;
+        color: rgb(97, 17, 60);
+    }
+    
+    &__block {
+        height: 250px;
+        width: 100%;
+        background-color: rgb(223, 135, 210);
+        border-radius: 12px;
+    }
+}

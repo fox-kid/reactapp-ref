@@ -1,0 +1,15 @@
+.main {
+  -webkit-margin-after: 60px;
+          margin-block-end: 60px;
+}
+.main h2 {
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
+  color: rgb(9, 71, 47);
+}
+.main__block {
+  height: 300px;
+  width: 100%;
+  background-color: rgb(58, 153, 99);
+  border-radius: 12px;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,15 @@
+.header {
+    margin-block-end: 60px;
+
+    h2 {
+        margin-block-end: 20px;
+        color: rgb(17, 13, 100);
+    }
+    
+    &__block {
+        height: 60px;
+        width: 100%;
+        background-color: rgb(138, 167, 205);
+        border-radius: 12px;
+    }
+}
